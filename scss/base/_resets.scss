@@ -1,7 +1,14 @@
-$color-red: #DC4433;
-$btn-hover-red: #CB1400;
-$black: #000000;
-$dark-grey: #424242;
-$header-grey: #212121;
-$light-grey: #C7C7C7;
-$white: #FFFFFF;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
