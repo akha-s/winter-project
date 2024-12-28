@@ -1,0 +1,23 @@
+.category__menu {
+	display: flex;
+	gap: 5px;
+	margin-left: 309px;
+}
+
+.category__list {
+	font-size: 14px;
+	line-height: 16.41px;
+	color: $dark-grey;
+}
+
+.dark-one {
+	font-weight: 500;
+	color: $black;
+}
+
+.category__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: $header-grey;
+}
