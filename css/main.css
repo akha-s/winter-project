@@ -70,22 +70,53 @@ button {
     width: 360px;
   }
 }
-<<<<<<< HEAD
-.header__wrapper {
-  padding: 0 425px;
-=======
 .header__top {
   display: flex;
   gap: 80px;
   padding: 17px 425px;
   background-color: #000000;
->>>>>>> origin/main
 }
 
 .header__link {
   font-size: 14px;
-<<<<<<< HEAD
+  font-weight: 400;
   color: #FFFFFF;
+  position: relative;
+}
+
+.link-clock {
+  width: 241px;
+  color: red;
+}
+
+.link-clock::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/clock.png");
+  background-size: cover;
+  background-color: red;
+  position: absolute;
+}
+
+.link-tel {
+  width: 290px;
+}
+
+.link-tel::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/tel.png");
+  background-size: contain;
+}
+
+.link-search::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/search.png");
+  background-size: cover;
 }
 
 .category__menu {
@@ -415,21 +446,6 @@ button {
 .left-arrow {
   transition: 0.1s linear;
   cursor: pointer;
-=======
-  font-weight: 400;
-  color: #FFFFFF;
-}
-
-.link-clock {
-  width: 241px;
-}
-
-.link-clock::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  background-image: url("../pages/main/clock.png ");
-  background-size: cover;
 }
 
 .hero__wrapper {
@@ -515,5 +531,70 @@ button {
   padding: 40px 309px;
   width: 1728px;
   height: 240px;
->>>>>>> origin/main
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.try__top {
+  display: flex;
+  gap: 214px;
+  margin-bottom: 50px;
+}
+
+.try__title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.try__box {
+  display: flex;
+  gap: 30px;
+}
+
+.try__btn {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 10px 36px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn-active {
+  background-color: #FFFFFF;
+  color: #DC4433;
+}
+
+.try__bottom {
+  display: flex;
+  gap: 30px;
+}
+
+.try__info {
+  padding: 20px 25px;
+  width: 255px;
+  background-color: #FFFFFF;
+  color: #C7C7C7;
+  border-radius: 4px;
+  position: relative;
+}
+
+.info-active::after {
+  content: "";
+  width: 6px;
+  height: 4px;
+  background-image: url("./main/active.png");
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 25px;
+}
+
+.info-double::before {
+  content: "";
+  width: 1px;
+  height: 60px;
+  position: absolute;
+  background-color: #C7C7C7;
 }/*# sourceMappingURL=main.css.map */
