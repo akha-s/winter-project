@@ -1,8 +1,48 @@
-.header__wrapper {
-    padding: 0 425px;
+.header__top {
+  display: flex;
+  gap: 80px;
+  padding: 17px 425px;
+  background-color: $black;
 }
 
 .header__link {
-    font-size: 14px;
-    color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  color: $white;
+  position: relative;
+}
+
+.link-clock {
+  width: 241px;
+  color: red;
+}
+
+.link-clock::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/clock.png");
+  background-size: cover;
+  background-color: red;
+  position: absolute;
+}
+
+.link-tel {
+  width: 290px;
+}
+
+.link-tel::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/tel.png");
+  background-size: contain;
+}
+
+.link-search::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("../pages/main/search.png");
+  background-size: cover;
 }
