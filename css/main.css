@@ -417,4 +417,94 @@ body {
 
 .special-text {
   text-decoration: underline;
+}
+
+.offer__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer__info {
+  display: flex;
+  gap: 563px;
+  align-items: center;
+}
+
+.offer__title {
+  font-weight: 600;
+  font-size: 32px;
+  color: #212121;
+}
+
+.offer__minititle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #424242;
+}
+
+.offer__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.offer__item {
+  border: 1px solid #C7C7C7;
+  border-radius: 4px;
+}
+
+.offer__subinfo {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #212121;
+}
+
+.offer__subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.offer__subminititle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.offer__submenu {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1.2fr;
+  row-gap: 15px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.offer__item {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.grey {
+  color: #424242;
+  font-weight: 400;
+}
+
+.offer__price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0 15px;
+}
+
+.offer__subbtn {
+  padding: 10px 133px;
+  background-color: #DC4433;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-style: none;
+  font-size: 1rem;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
