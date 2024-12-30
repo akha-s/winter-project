@@ -605,4 +605,68 @@ body {
   font-size: 1rem;
   font-weight: 500;
   color: #FFFFFF;
+}
+
+.credit__wrapper {
+  padding: 0 309px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #212121;
+}
+
+.credit__info {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.credit__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.credit__minititle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #424242;
+}
+
+.credit__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.credit__item {
+  width: 540px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #C7C7C7;
+  border-radius: 4px;
+  box-shadow: 10px 10px 24px 0px rgba(188, 188, 188, 0.2509803922);
+}
+
+.credit__img {
+  max-width: 74px;
+  height: 70px;
+}
+
+.credit__subtitle {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.credit__box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.credit__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #424242;
 }/*# sourceMappingURL=main.css.map */
