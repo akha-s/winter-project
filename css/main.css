@@ -540,4 +540,20 @@ body {
 .advan__img {
   width: 64px;
   height: 64px;
+}
+
+.add__wrapper {
+  padding: 100px 309px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.add__img {
+  position: relative;
+}
+
+.add-1 {
+  grid-row: 2 span;
 }/*# sourceMappingURL=main.css.map */
