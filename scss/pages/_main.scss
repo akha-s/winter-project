@@ -385,3 +385,35 @@
   font-weight: 500;
 }
 
+.advan__wrapper {
+  padding: 0 309px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: $header-grey;
+}
+
+.advan__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.advan__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.advan__item {
+  border-radius: 4px;
+  border: 1px solid $light-grey;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 10px 10px 24px 0px #bcbcbc40;
+}
+
+.advan__img {
+  width: 64px;
+  height: 64px;
+}
