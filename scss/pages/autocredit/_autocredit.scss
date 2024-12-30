@@ -88,3 +88,19 @@
   color: black;
 }
 // header block end
+.hero__top {
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    padding: 30px 309px;
+}
+.bi-chevron-right {
+    font-size: 10px;
+}
+.hero__title {
+    padding: 0 309px;
+}
+
+.hero__text {
+    padding: 30px 309px;
+}
