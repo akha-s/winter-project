@@ -448,6 +448,18 @@ button {
   cursor: pointer;
 }
 
+.section2-title__box {
+  display: flex;
+  margin-left: 309px;
+  gap: 557px;
+  margin-top: 100px;
+}
+
+.section2__title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 .hero__wrapper {
   padding: 80px 309px;
   display: flex;
