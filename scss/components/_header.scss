@@ -13,36 +13,42 @@
 }
 
 .link-clock {
-  width: 241px;
-  color: red;
+  min-width: 241px;
 }
 
 .link-clock::before {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url("../pages/main/clock.png");
+  background-image: url("/scss/pages/main/clock.png");
   background-size: cover;
-  background-color: red;
   position: absolute;
+  left: -19px;
 }
 
 .link-tel {
-  width: 290px;
+  min-width: 320px;
 }
 
 .link-tel::before {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url("../pages/main/tel.png");
-  background-size: contain;
+  background-image: url("/scss/pages/main/tel.png");
+  background-size: cover;
+  position: absolute;
+  left: -19px;
 }
 
 .link-search::before {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url("../pages/main/search.png");
+  background-image: url("/scss/pages/main/search.png");
   background-size: cover;
+  left: -19px;
+}
+
+.link-reverse {
+  min-width: 118px;
 }
