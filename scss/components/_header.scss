@@ -30,6 +30,10 @@
   min-width: 320px;
 }
 
+.link-thin {
+  font-weight: 400;
+}
+
 .link-tel::before {
   content: "";
   width: 14px;
@@ -47,6 +51,7 @@
   background-image: url("/scss/pages/main/search.png");
   background-size: cover;
   left: -19px;
+  position: absolute;
 }
 
 .link-reverse {
@@ -56,5 +61,23 @@
 @media only screen and (max-width: 1258px) {
   .header__top {
     padding: 17px 165px;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .header__top {
+    padding: 17px 265px;
+  }
+
+  .link-clock {
+    display: none;
+  }
+
+  .link-thin {
+    display: none;
+  }
+
+  .link-tel {
+    min-width: 105px;
   }
 }
