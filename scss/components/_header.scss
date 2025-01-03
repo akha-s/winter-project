@@ -52,3 +52,9 @@
 .link-reverse {
   min-width: 118px;
 }
+
+@media only screen and (max-width: 1258px) {
+  .header__top {
+    padding: 17px 165px;
+  }
+}

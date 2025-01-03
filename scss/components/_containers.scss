@@ -1,22 +1,20 @@
 .container {
-    width: 1728px;
-    margin: 0 auto;
+  width: 1728px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1258px) {
-    .container {
-        width: 1258px;
-    }
+
 }
 
 @media only screen and (max-width: 834px) {
-    .container {
-        width: 834px;
-    }
+  .container {
+    padding: 0 -168px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
-    .container {
-        width: 360px;
-    }
+  .container {
+    padding: 0 -279px;
+  }
 }
