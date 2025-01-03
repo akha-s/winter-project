@@ -258,11 +258,75 @@ body {
 }
 
 .hero__title {
-  padding: 0 309px;
+  padding: 0 199px;
 }
 
 .hero__text {
-  padding: 30px 309px;
+  padding: 30px 199px;
+}
+
+.program__title {
+  padding: 90px 199px 40px;
+  font-size: 32px;
+}
+
+.program__text {
+  padding: 0 199px 20px;
+}
+
+.program__kia {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 13px;
+  border: 2px solid grey;
+}
+
+.progrem__kia-text {
+  margin-top: 15px;
+}
+
+.program__boxes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 199px 100px;
+}
+
+.program__credit-tablet {
+  display: flex;
+  align-items: center;
+  gap: 903px;
+  margin: 20px 0;
+}
+
+.program__line {
+  width: 1110px;
+  background-color: silver;
+  height: 1px;
+}
+
+.program__credit {
+  font-size: 32px;
+  padding: 21px 199px;
+}
+
+.progran__main-box {
+  padding: 21px 199px;
+}
+
+.dinamic {
+  background-color: #FAFAFA;
+  width: 100%;
+}
+
+.dinamic__main-part {
+  background-color: #fff;
+  padding: 16px 20px;
+  box-shadow: 0 0 2px silver;
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }
 
 .hero__wrapper {
