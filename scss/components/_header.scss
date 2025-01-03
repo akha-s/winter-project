@@ -81,3 +81,23 @@
     min-width: 105px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .header__top {
+    padding: 17px 151px;
+    gap: 20px;
+  }
+
+  .link-clock {
+    display: none;
+  }
+
+  .link-thin {
+    display: none;
+  }
+
+  .link-tel {
+    min-width: 105px;
+    display: none;
+  }
+}
