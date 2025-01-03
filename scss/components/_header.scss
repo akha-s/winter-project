@@ -1,8 +1,144 @@
-.header__wrapper {
-    padding: 0 425px;
+.header__top {
+  display: flex;
+  gap: 80px;
+  padding: 17px 425px;
+  background-color: $black;
 }
 
 .header__link {
-    font-size: 14px;
-    color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  color: $white;
+  position: relative;
 }
+
+.link-clock {
+  min-width: 241px;
+}
+
+.link-clock::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("/scss/pages/main/clock.png");
+  background-size: cover;
+  position: absolute;
+  left: -19px;
+}
+
+.link-tel {
+  min-width: 320px;
+}
+
+.link-tel::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("/scss/pages/main/tel.png");
+  background-size: cover;
+  position: absolute;
+  left: -19px;
+}
+
+.link-search::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("/scss/pages/main/search.png");
+  background-size: cover;
+  left: -19px;
+}
+
+.link-reverse {
+  min-width: 118px;
+}
+// header block bottom start
+.header__bottom-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header__bottom {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 21px 214px;
+}
+.header__bottom-first-link {
+  position: relative;
+  color: black;
+}
+.header__bottom-second-link {
+  position: relative;
+  color: black;
+}
+.header__bottom-third-link {
+  position: relative;
+  color: black;
+}
+.header__bottom-fourth-link {
+  position: relative;
+  color: black;
+}
+.header__bottom-fifth-link {
+  position: relative;
+  color: black;
+}
+
+.header__bottom-first-link::before {
+  content: "";
+  position: absolute;
+  background-image: url(/scss/pages/autocredit/assets-auto/Frame\ 9.png);
+  width: 6px;
+  height: 6px;
+  background-size: cover;
+  left: 150px;
+  top: 6px;
+}
+.header__bottom-second-link::before {
+  content: "";
+  position: absolute;
+  background-image: url(/scss/pages/autocredit/assets-auto/Frame\ 9.png);
+  width: 6px;
+  height: 6px;
+  background-size: cover;
+  left: 90px;
+  top: 6px;
+}
+.header__bottom-third-link::before {
+  content: "";
+  position: absolute;
+  background-image: url(/scss/pages/autocredit/assets-auto/Frame\ 9.png);
+  width: 6px;
+  height: 6px;
+  background-size: cover;
+  left: 117px;
+  top: 6px;
+}
+.header__bottom-fourth-link::before {
+  content: "";
+  position: absolute;
+  background-image: url(/scss/pages/autocredit/assets-auto/Frame\ 9.png);
+  width: 6px;
+  height: 6px;
+  background-size: cover;
+  left: 55px;
+  top: 6px;
+}
+.header__bottom-fifth-link::before {
+  content: "";
+  position: absolute;
+  background-image: url(/scss/pages/autocredit/assets-auto/Frame\ 9.png);
+  width: 6px;
+  height: 6px;
+  background-size: cover;
+  left: 97px;
+  top: 6px;
+}
+.header__bottom-auto-link {
+  color: black;
+}
+.header__bottom-link-contact {
+  color: black;
+}
+// header block end 
