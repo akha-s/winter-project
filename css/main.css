@@ -315,20 +315,6 @@ body {
   padding: 21px 199px;
 }
 
-.dinamic {
-  background-color: #FAFAFA;
-  width: 100%;
-}
-
-.dinamic__main-part {
-  background-color: #fff;
-  padding: 16px 20px;
-  box-shadow: 0 0 2px silver;
-  display: flex;
-  align-items: center;
-  gap: 100px;
-}
-
 .hero__wrapper {
   padding: 80px 309px;
   display: flex;
