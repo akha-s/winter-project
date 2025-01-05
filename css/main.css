@@ -315,6 +315,88 @@ body {
   padding: 21px 199px;
 }
 
+.dinamic__main-text {
+  width: 215px;
+}
+
+.dinamic__main-title {
+  margin: 16px 0 10px;
+}
+
+.dinamic {
+  background-color: #fafafa;
+}
+
+.dinamic__main-boxes {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 209px;
+}
+
+.dinamic__main-box {
+  background-color: #fff;
+  padding: 16px 21px;
+  box-shadow: 0 0 20px silver;
+}
+
+.dinamic__title {
+  padding: 21px 209px;
+}
+
+.get_credit-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.get_credit-text {
+  width: 253px;
+}
+
+.get_credit-box-one {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+}
+
+.get_credit-main-boxes {
+  display: flex;
+  align-items: center;
+  padding: 60px 209px;
+  gap: 30px;
+}
+
+.get_credit-box-two {
+  padding: 25px;
+}
+
+.get_credit-title {
+  padding: 50px 209px 0;
+}
+
+.get_credit-btn {
+  border-radius: 4px;
+  background-color: #DC4433;
+  border: none;
+  padding: 20px 95px;
+  margin-top: 50px;
+  margin-left: 630px;
+  margin-bottom: 50px;
+  width: 300px;
+  color: white;
+}
+
+.bank__logos {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+}
+
 .hero__wrapper {
   padding: 80px 309px;
   display: flex;
