@@ -1466,4 +1466,110 @@ button {
 
 .distance-number {
   color: blue;
+}
+
+.footer-wrapper {
+  width: 1728px;
+  height: 537px;
+  background-color: #000000;
+}
+
+.footer-second-wrapper {
+  padding-top: 40px;
+  padding-left: 309px;
+}
+
+.footer-logo {
+  padding-bottom: 50px;
+}
+
+.footer-time-info > p {
+  color: white;
+}
+
+.footer-time__time {
+  font-size: 12px;
+  line-height: 14.06px;
+  padding-bottom: 5px;
+}
+
+.footer-phone-call {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28.13px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer-extra-call {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.06px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: false;
+          text-decoration-skip-ink: false;
+  padding-bottom: 20px;
+}
+
+.footer-email {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28.13px;
+  color: white;
+}
+
+.footer-location {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28.13px;
+  color: white;
+}
+
+.padding-one {
+  padding-bottom: 20px;
+}
+
+.footer-time-info > .footer-licence {
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #C7C7C7;
+  padding-bottom: 10px;
+}
+
+.footer-time-info > .footer-guarantee {
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #C7C7C7;
+}
+
+.footer-second__menu {
+  display: flex;
+  gap: 48px;
+  position: absolute;
+  top: 130px;
+  left: 689px;
+}
+
+.second-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.second-menu__list > a {
+  color: white;
+  font-size: 14px;
+}
+
+.menu-list-title {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+footer {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
