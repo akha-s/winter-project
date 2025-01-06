@@ -1561,6 +1561,7 @@ button {
 .second-menu__list > a {
   color: white;
   font-size: 14px;
+  transition: 0.2s linear;
 }
 
 .menu-list-title {
@@ -1572,4 +1573,8 @@ button {
 
 footer {
   position: relative;
+}
+
+.menu-list-text:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=main.css.map */
