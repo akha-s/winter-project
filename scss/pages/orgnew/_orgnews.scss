@@ -1,0 +1,44 @@
+.orgnews__wrapper {
+  padding: 30px 309px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: $header-grey;
+}
+
+.orgnews__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orgnews__title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.orgnews__inner {
+  display: flex;
+  gap: 30px;
+}
+
+.orgnews__border {
+    padding: 7px 15px;
+    border: 1px solid $light-grey;
+    display: flex;
+    gap: 91px;
+    font-size: 14px;
+    font-weight: 400;
+    color: $black;
+}
+
+.orgnews__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: $light-grey;
+}
+
+.text-active {
+    color: $black;
+    font-weight: 600;
+}
